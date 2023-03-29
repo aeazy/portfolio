@@ -7,26 +7,51 @@
     <!-- <script type="text/javascript" src="assets/script.js"></script> -->
   </head>
   <body>
+    <!-- Header -->
     <div class="header">
       <div class="logo">
-        <img src="../../assets/ak-icon.png">
+        <img src="../../assets/ak-icon.png" />
       </div>
       <div class="links">
-        <a href="#"><span class="link-text">About</span></a>
+        <a href="../html/home.html"><span class="link-text">About</span></a>
 
         <a href="../html/resume.html"><span class="link-text">Resume</span></a>
 
         <a href="/projects.html"><span class="link-text">Projects</span></a>
 
-        <a href="/contact.html"><span class="link-text">Contact</span></a>
+        <a href="../html/contactMe.html"
+          ><span class="link-text">Contact</span></a
+        >
       </div>
     </div>
-      <div class="main-content">
-        <h1>Welcome.</h1>
-        <div class="about-me">
-          <p>My name is Aric Kraft and I'm a full-stack developer based in the United States. I have an analytical mind with a passion for software development and problem solving. 
-            Coming from both a science and marketing background, I have a versatile skill set to address anything from data analysis and algorithms to UX/UI design.</p>
+    <!-- Page content -->
+    <div class="main-content">
+      <div class="header-2">
+        <h1>Contact Me</h1>
+        <hr />
+      </div>
+      <div class="main-content-2">
+        <div class="sidebar">
+          <h1>PHONE</h1>
+          <h2>(702) 588-8186</h2>
+          <h1>EMAIL</h1>
+          <h2>kraft.aric@gmail.com</h2>
         </div>
+        <!-- Form -->
+        <form>
+          <input
+            id="name"
+            placeholder="name"
+            style="float: left; margin-right: 1%"
+          />
+          <input id="email" placeholder="email" />
+          <input
+            id="message"
+            class="message"
+            placeholder="message"
+            style="width: 98%"
+          />
+        </form>
       </div>
     </div>
   </body>

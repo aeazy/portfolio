@@ -33,6 +33,21 @@ body {
   color: #f1f1f1;
 }
 
+.header-2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-2 h1 {
+  font-size: 48px !important;
+}
+
+.header-2 hr {
+  width: 10%;
+  border: 2px solid #fff;
+}
+
 .subheader {
   margin: 2% auto;
   text-align: right;
@@ -90,6 +105,12 @@ body {
   margin: 0 auto;
   padding-top: 5%;
   padding-bottom: 0;
+}
+
+.main-content-2 {
+  margin-top: 2%;
+  display: flex;
+  border: 1px solid blue;
 }
 
 .about-me {
@@ -204,4 +225,36 @@ body {
 
 .column-3 ul {
   list-style: none;
+}
+
+/* Contact Me */
+.sidebar {
+  border: 1px solid red;
+  margin-top: 5%;
+}
+
+.sidebar h1 {
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+}
+
+.sidebar h2 {
+  margin: 10px auto;
+  font-size: 18px;
+  color: #aeaaaa;
+}
+
+.main-content-2 form {
+  border: 1px solid red;
+  margin-left: 5%;
+  width: 90%;
+  display: inline-block;
+}
+
+.main-content-2 input {
+  margin: 0;
+  width: 48%;
+  margin: 0 auto;
+  display: inline;
 }
