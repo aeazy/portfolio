@@ -1,0 +1,158 @@
+html {
+  width: 100%;
+  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #0e1012;
+  font-family: sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.header {
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.header a {
+  text-decoration: none;
+  color: #818181;
+}
+
+.header a:hover {
+  color: #f1f1f1;
+}
+
+.link-text {
+  font-size: 2.5vw;
+  padding-left: 10%;
+  vertical-align: middle;
+  padding-top: 10%;
+}
+
+.links {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 10%;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+}
+
+.main-content {
+  height: 80%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0e1012;
+}
+
+.main-content h1 {
+  font-size: 10vw;
+  color: #f1f1f1;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 0;
+}
+
+.about-me {
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+  margin-left: 10%;
+}
+
+.about-me p {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+.resume {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  color: black;
+}
+
+.resume h1 {
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.resume p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+.section {
+  margin: 0 auto;
+  height: fit-content;
+  width: 95%;
+}
+
+.section h2 {
+  margin: 10px 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  height: 24px;
+}
+
+.section h3 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  display: inline;
+}
+
+.section h4 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: inline;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.section p {
+  display: inline;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.section ul {
+  margin: 5px 10px 10px 30px;
+  padding-left: 10px;
+}
+
+.skills-list {
+  text-align: center;
+  margin: 5px auto;
+}
+
+.skills-list h4 {
+  font-size: 14px;
+  margin: 0 30px 0 0;
+  text-align: center;
+  border: 1px solid rgb(121, 117, 117);
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+}
