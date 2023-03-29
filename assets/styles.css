@@ -10,6 +10,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  padding-bottom: 5%;
+}
+
 .header {
   width: 80%;
   margin-top: 3%;
@@ -27,6 +31,11 @@ html {
 
 .header a:hover {
   color: #f1f1f1;
+}
+
+.subheader {
+  margin: 2% auto;
+  border: 1px solid red;
 }
 
 .link-text {
@@ -48,11 +57,12 @@ html {
 }
 
 .main-content {
-  height: 80%;
+  height: 100%;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   background-color: #0e1012;
+  z-index: -1;
 }
 
 .main-content h1 {
@@ -80,11 +90,11 @@ html {
 
 .resume {
   width: 100%;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100%;
+  margin: 2% auto auto auto;
   background-color: #fff;
   color: black;
+  z-index: 1;
 }
 
 .resume h1 {
@@ -119,9 +129,8 @@ html {
 }
 
 .section h3 {
-  margin: 0 0 10px 0;
+  margin: 0 auto;
   font-size: 14px;
-  display: inline;
 }
 
 .section h4 {
@@ -135,7 +144,7 @@ html {
 .section p {
   display: inline;
   font-size: 14px;
-  font-style: italic;
+  font-style: normal;
 }
 
 .section ul {
@@ -143,14 +152,40 @@ html {
   padding-left: 10px;
 }
 
-.skills-list {
+.columns {
+  margin: 0 auto;
   text-align: center;
-  margin: 5px auto;
+}
+.column {
+  margin: 0 10px 0 10px;
+  display: inline-block;
+  width: fit-content;
 }
 
-.skills-list h4 {
+.column ul {
+  width: fit-content;
   font-size: 14px;
-  margin: 0 30px 0 0;
-  text-align: center;
+  margin: 0 auto;
   padding: 2px 2px 2px 2px;
+  text-align: left;
+}
+
+.columns-2 {
+  margin: 0 auto;
+}
+
+.column-2 {
+  display: inline-block;
+  width: 50%;
+}
+
+.column-3 {
+  width: 49%;
+  display: inline-block;
+  height: fit-content;
+  text-align: right;
+}
+
+.column-3 ul {
+  list-style: none;
 }
