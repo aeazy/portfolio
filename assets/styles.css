@@ -35,7 +35,26 @@ body {
 
 .subheader {
   margin: 2% auto;
-  border: 1px solid red;
+  text-align: right;
+}
+
+.button {
+  width: fit-content;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 2%;
+  padding: 5px 10px 5px 10px;
+}
+
+.button a {
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
 }
 
 .link-text {
@@ -89,12 +108,9 @@ body {
 }
 
 .resume {
-  width: 100%;
-  height: 100%;
   margin: 2% auto auto auto;
   background-color: #fff;
   color: black;
-  z-index: 1;
 }
 
 .resume h1 {
