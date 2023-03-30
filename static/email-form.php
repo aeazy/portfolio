@@ -1,4 +1,12 @@
 <?php 
+
+    function function_alert($message) {
+        
+        // Display the alert box 
+        echo "<script>alert('$message');</script>";
+
+        // header('Location: contactMe.html');
+    }
     
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
@@ -7,13 +15,13 @@
     //Validate 
     if(empty($name)||empty($visitor_email)) 
     {
-        alert("Please enter your name and a valid email");
+        function_alert("Please enter your name and a valid email");
         exit;
     }
 
     if(IsInjected($visitor_email))
     {
-        alert("Invalid email");
+        function_alert("Invalid email");
         exit;
     }
 
@@ -29,8 +37,9 @@
     //Send email
     mail($to,$email_subject,$email_body,$headers);
 
-    //redirect to thank-you page.
-    alert("Thank you for reaching out");
+    //redirect 
+    function_alert("Thank you for reaching out");
+    header('Location: contactMe.html');
     exit;
 
 // Function to validate against any email injection attempts

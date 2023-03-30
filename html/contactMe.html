@@ -4,6 +4,8 @@
     <title>Aric Kraft</title>
     <meta http-equiv="x-ua-compatible" content="ie=10" />
     <link rel="stylesheet" href="../static/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../static/form.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -39,16 +41,15 @@
         <!-- Form -->
         <form method="post" name="contactMe" action="../static/email-form.php">
           <div class="flex">
-            <section><input id="name" type="text" name="name" placeholder="Enter your name" /></section>
+            <section><input type="text" id="name"  name="name" placeholder="Enter your name" required /></section>
             <section>
-              <input id="email" type="text" name="email" placeholder="Enter your email address" style="float: right;"/>
+              <input type="text" id="email" name="email" placeholder="Enter your email address" style="float: right;" required />
             </section>
           </div>
 
           <div class="flex">
-            <textarea id="message" name="message" wrap="soft" placeholder="Enter your message"></textarea></textarea>
+            <textarea id="message" name="message" wrap="soft" placeholder="Enter your message" required></textarea></textarea>
           </div>
-
           <div class="flex-2"><input type="submit" name="submit" value="Submit" style="float:right"></div>
         </form>
       </div>
