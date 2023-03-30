@@ -7,13 +7,13 @@
     //Validate 
     if(empty($name)||empty($visitor_email)) 
     {
-        echo "Please enter your name and a valid email";
+        alert("Please enter your name and a valid email");
         exit;
     }
 
     if(IsInjected($visitor_email))
     {
-        echo "Invalid email";
+        alert("Invalid email");
         exit;
     }
 
@@ -30,7 +30,7 @@
     mail($to,$email_subject,$email_body,$headers);
 
     //redirect to thank-you page.
-    echo "Thank you for reaching out";
+    alert("Thank you for reaching out");
     exit;
 
 // Function to validate against any email injection attempts
