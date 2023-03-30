@@ -17,13 +17,13 @@
         exit;
     }
 
-    $email_from = '<arickraft.me>';
+    // $email_from = '<arickraft.me>';
     $email_subject = "Portfolio Form submission";
     $email_body = "New message from $name.\n".
         "Message:\n $message".
         
     $to = "<kraft.aric@gmail.com>";
-    $headers = "From: $email_from \r\n";
+    $headers = "From: Portfolio \r\n";
     $headers .= "Reply-To: $visitor_email \r\n";
 
     //Send email
