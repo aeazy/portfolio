@@ -17,7 +17,7 @@
         exit;
     }
 
-    $email_from = '<http://127.0.0.1:5500/html/contactMe.html>';
+    $email_from = '<arickraft.me>';
     $email_subject = "Portfolio Form submission";
     $email_body = "New message from $name.\n".
         "Message:\n $message".
