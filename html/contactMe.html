@@ -17,9 +17,9 @@
 
         <a href="../html/resume.html"><span class="link-text">Resume</span></a>
 
-        <a href="/projects.html"><span class="link-text">Projects</span></a>
+        <a href="../html/projects.html"><span class="link-text">Projects</span></a>
 
-        <a href="../html/contactMe.html"
+        <a href="#"
           ><span class="link-text">Contact</span></a
         >
       </div>
@@ -38,22 +38,20 @@
           <h2>kraft.aric@gmail.com</h2>
         </div>
         <!-- Form -->
-        <form>
+        <form method="post" name="contactMe" action="email-form.php">
           <div class="flex">
-            <section><input id="name" placeholder="Enter your name" /></section>
+            <section><input id="name" type="text" name="name" placeholder="Enter your name" /></section>
             <section>
-              <input id="email" placeholder="Enter your email address" />
+              <input id="email" type="text" name="email" placeholder="Enter your email address" style="float: right;"/>
             </section>
           </div>
 
           <div class="flex">
-            <textarea id="message" wrap="soft" placeholder="Enter your message"></textarea></textarea>
+            <textarea id="message" name="message" wrap="soft" placeholder="Enter your message"></textarea></textarea>
           </div>
-        </form>
 
-        <div class="btn-container">
-          <button id="submit-form">Submit</button>
-        </div>
+          <div class="flex-2"><input type="submit" name="submit" value="Submit" style="float:right"></div>
+        </form>
       </div>
     </div>
   </body>
