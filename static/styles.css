@@ -48,6 +48,10 @@ body {
   border: 2px solid #fff;
 }
 
+.footer {
+  height: 5%;
+}
+
 .subheader {
   margin: 1% auto;
   text-align: center;
@@ -134,7 +138,6 @@ body {
 .resume {
   margin: 0 auto;
   padding: 25px 50px;
-  border: 1px solid red;
 }
 
 .resume-content {
@@ -188,14 +191,12 @@ body {
 
 .resume-section-experience {
   margin: 25px auto 0 0;
-  width: 75%;
-  border: 1px solid red;
+  width: max-content;
 }
 
 .job-header {
   display: flex;
   margin-top: 20px;
-  /* border: 1px solid blue; */
 }
 
 .job-bullets ul {
@@ -234,11 +235,20 @@ section.date {
 }
 
 .skills {
-  width: max-content;
-  display: flex;
+  width: 50%;
+  height: fit-content;
   vertical-align: top;
-  margin: 25px auto 0 20px;
-  border: 1px solid blue;
+  margin: 25px auto 0 40px;
+  border: 1px solid lightblue;
+}
+
+.skills section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  /* border: 1px solid lightcoral; */
+  justify-content: space-between;
 }
 
 .skills h1 {
@@ -247,14 +257,18 @@ section.date {
   color: black;
   padding: 0 0 0 10px;
   border-left: 5px solid black;
+  width: 100%;
 }
 
 .skills p {
+  margin: 2px;
   color: #252525;
   border: 1px solid #252525;
   border-radius: 5px;
   padding: 2px;
-  display: inline;
+  text-align: center;
+  display: flex;
+  font-size: 14px;
 }
 
 /* Contact Me */
@@ -322,4 +336,69 @@ section.date {
   resize: none;
   padding: 5px 0 0 10px;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    margin: 0 auto;
+    background-color: #0e1012;
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+  .logo {
+    height: auto;
+    width: 10%;
+  }
+
+  .header {
+    width: fit-content;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+
+  .header a {
+    text-decoration: none;
+    color: #818181;
+  }
+
+  .header a:hover {
+    color: #f1f1f1;
+  }
+
+  .header-2 {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header-2 h1 {
+    font-size: 48px !important;
+  }
+
+  .header-2 hr {
+    width: 10%;
+    border: 2px solid #fff;
+  }
+
+  .main-content {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0e1012;
+    z-index: -1;
+  }
+
+  .main-content h1 {
+    font-size: 48px;
+    color: #f1f1f1;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 0;
+  }
 }
