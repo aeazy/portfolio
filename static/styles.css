@@ -162,7 +162,7 @@ body {
 
 .resume-name h2 {
   margin: 0 auto;
-  color: #252525;
+  color: #696969;
   padding-left: 20px;
 }
 
@@ -175,13 +175,19 @@ body {
 }
 
 .resume-contact h1 {
-  color: #252525;
+  color: #696969;
   font-size: 18px;
   text-align: left;
 }
 
 .resume-contact i {
   padding-right: 10px;
+  vertical-align: middle;
+}
+
+.resume-contact a {
+  text-decoration: none;
+  color: #696969;
   vertical-align: middle;
 }
 
@@ -229,30 +235,32 @@ section.date {
 
 .resume-section-experience h3 {
   margin: 0 auto;
-  color: #252525;
+  color: #696969;
   font-size: 18px;
   padding-left: 10px;
 }
 
-.skills {
+.resume-sidebar {
   width: 50%;
-  height: fit-content;
   vertical-align: top;
   margin: 25px auto 0 40px;
-  border: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid lightblue; */
 }
 
-.skills section {
+.resume-sidebar section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  /* border: 1px solid lightcoral; */
   justify-content: space-between;
+  margin: 10px auto;
 }
 
-.skills h1 {
-  margin: 0 auto 10px;
+.resume-sidebar h1 {
+  margin: 0 auto;
   font-size: 24px;
   color: black;
   padding: 0 0 0 10px;
@@ -260,10 +268,10 @@ section.date {
   width: 100%;
 }
 
-.skills p {
+.resume-sidebar p {
   margin: 2px;
-  color: #252525;
-  border: 1px solid #252525;
+  color: #696969;
+  border: 1px solid #696969;
   border-radius: 5px;
   padding: 2px;
   text-align: center;
@@ -271,11 +279,54 @@ section.date {
   font-size: 14px;
 }
 
+.certificates h2 {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+
+.dates h3 {
+  margin: 0;
+  color: #696969;
+  font-size: 14px;
+  text-align: right;
+}
+
+.degree {
+  margin: 10px 0;
+}
+
+.degree h2 {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+
+.degree-information h3 {
+  margin: 0;
+  color: #696969;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 100;
+}
+
+.skills {
+  display: block;
+}
+
+.certifications {
+  display: block;
+}
+
+.education {
+  display: block;
+}
 /* Contact Me */
 .sidebar {
-  margin-top: 2%;
+  margin-top: 1%;
   width: 20%;
   float: left;
+  /* border: 1px solid red; */
 }
 
 .sidebar h1 {
@@ -316,6 +367,7 @@ section.date {
   width: 75%;
   height: fit-content;
   float: right;
+  /* border: 1px solid red; */
 }
 
 .main-content-2 section {
