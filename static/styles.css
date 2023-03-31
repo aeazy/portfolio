@@ -49,18 +49,17 @@ body {
 }
 
 .subheader {
-  margin: 2% auto;
-  text-align: right;
+  margin: 1% auto;
+  text-align: center;
 }
 
 .button {
+  margin: 0 auto;
   width: fit-content;
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid #fff;
   text-align: center;
-  margin-left: auto;
-  margin-right: 2%;
   padding: 5px 10px 5px 10px;
 }
 
@@ -122,7 +121,109 @@ body {
   text-align: justify;
 }
 
+/* Online Resume */
+
+.resume-container {
+  margin: 50px auto;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
 .resume {
+  margin: 0 auto;
+  padding: 25px 50px;
+}
+
+.resume-header {
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.resume-name {
+  margin: 0;
+}
+
+.resume-name h1 {
+  margin: 0 auto -10;
+  color: black;
+  font-size: 72px;
+}
+
+.resume-name h2 {
+  margin: 0 auto;
+  color: #252525;
+  padding-left: 20px;
+}
+
+.resume-contact {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-block;
+}
+
+.resume-contact h1 {
+  color: #252525;
+  font-size: 18px;
+  text-align: left;
+}
+
+.resume-contact i {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.resume hr {
+  margin: 0 auto;
+}
+
+.resume-section-experience {
+  margin: 25px auto 0 0;
+  width: 75%;
+  border: 1px solid red;
+}
+
+.job {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid blue;
+}
+
+section.job-title {
+  margin: 0;
+  padding: 0;
+}
+
+section.date {
+  margin: auto 0 auto auto;
+}
+
+.resume-section-experience h1 {
+  margin: 0 auto;
+  font-size: 24px;
+  color: black;
+  padding: 0 0 0 10px;
+  border-left: 5px solid black;
+}
+
+.resume-section-experience h2 {
+  margin: 0 auto;
+  color: black;
+  font-size: 20px;
+}
+
+.resume-section-experience h3 {
+  margin: 0 auto;
+  color: #252525;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+/* .resume {
   margin: 2% auto auto auto;
   background-color: #fff;
   color: black;
@@ -219,7 +320,7 @@ body {
 
 .column-3 ul {
   list-style: none;
-}
+} */
 
 /* Contact Me */
 .sidebar {
