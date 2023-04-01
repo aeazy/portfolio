@@ -102,27 +102,55 @@ body {
   z-index: -1;
 }
 
-.main-content h1 {
-  font-size: 10vw;
-  color: #f1f1f1;
-  margin: 0 auto;
+.flexbox-2 {
+  display: flex;
   padding-top: 5%;
-  padding-bottom: 0;
 }
 
 .about-me {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  width: 60%;
-  margin-left: 10%;
+  width: 80%;
+  /* border: 1px solid lightblue; */
+  display: inline;
+}
+
+.about-me h1 {
+  margin: 0;
+  width: fit-content;
+  font-size: 10vw;
+  color: #f1f1f1;
+  padding-bottom: 0;
 }
 
 .about-me p {
-  padding: 0;
   margin: 0 auto;
   display: flex;
   font-size: 1.5vw;
   text-align: justify;
+  padding-left: 10%;
+}
+
+.icon-box {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.icon-box i {
+  font-size: 48px;
+  margin: 10px;
+  color: #818181;
+}
+
+.icon-box a {
+  text-decoration: none;
+}
+
+.icon-box i:hover {
+  color: #f1f1f1;
 }
 
 /* Online Resume */
@@ -356,7 +384,6 @@ section.date {
 
 .resume-footer a,
 a:visited {
-  color: inherit;
   text-decoration: none;
 }
 
