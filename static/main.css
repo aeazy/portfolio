@@ -1,0 +1,523 @@
+body {
+  background-color: #0e1012;
+  font-family: sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+section.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header img {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 25px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #818181;
+}
+
+.header a:hover {
+  color: #f1f1f1;
+}
+
+.links {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link-text {
+  font-size: 24px;
+}
+
+.flexbox {
+  padding-top: 5%;
+}
+
+.about-me h1 {
+  width: 90%;
+
+  margin: 0 auto;
+  font-size: 60px;
+  color: #f1f1f1;
+}
+
+.about-me p {
+  margin: 0 auto;
+  padding-left: 2%;
+  font-size: 24px;
+  display: flex;
+  margin: 0 20px;
+}
+
+.icon-box {
+  margin: 0 auto;
+  height: fit-content;
+  text-align: center;
+}
+
+.icon-box i {
+  font-size: 48px;
+  margin: 10px;
+  color: #818181;
+}
+
+.icon-box a {
+  text-decoration: none;
+}
+
+.icon-box i:hover {
+  color: #f1f1f1;
+}
+
+.subheader h1 {
+  margin-bottom: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.subheader hr {
+  width: 30%;
+  border: 2px solid #fff;
+}
+
+.button {
+  margin: 0 auto;
+  width: fit-content;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.button a {
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+/* --------------------------- */
+
+.navbar {
+  margin: 10px;
+  font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #818181;
+}
+
+.navbar a:hover {
+  color: #f1f1f1;
+}
+
+/* Resume */
+.resume {
+  margin: auto;
+  width: 95%;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+.resume-header {
+  display: flex;
+}
+
+.resume-header h1 {
+  width: max-content;
+  float: left;
+  margin: 0 auto;
+  color: black;
+  font-size: 36px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.resume-header h2 {
+  margin: 0 auto;
+  width: max-content;
+  color: #292929;
+  font-size: 18px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.resume-contact {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: min-content;
+}
+
+.resume-contact h1 {
+  color: #696969;
+  font-size: 18px;
+}
+
+.resume-contact i {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.resume-contact a {
+  text-decoration: none;
+  color: #696969;
+  vertical-align: middle;
+}
+
+.resume-contact a:hover {
+  color: #292929;
+}
+
+.resume-experience {
+  display: inline-block;
+}
+
+.resume-experience h1 {
+  margin: 0 auto;
+  color: black;
+  font-size: 24px;
+  border-left: 5px solid black;
+  padding: 0 0 0 10px;
+}
+
+.job {
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.job-header {
+  display: inline;
+  vertical-align: middle;
+}
+
+.job h1 {
+  display: inline-block;
+  margin: 0;
+  flex-wrap: nowrap;
+  width: max-content;
+  font-size: 14px;
+  line-height: 10px;
+  vertical-align: bottom;
+  border: none;
+}
+
+.job h2 {
+  margin: 0;
+  width: max-content;
+  font-size: 14px;
+  color: #696969;
+  padding-left: 10px;
+}
+
+.job h3 {
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #696969;
+  font-size: 10px;
+  vertical-align: bottom;
+  line-height: 10px;
+  float: right;
+}
+
+.job ul {
+  margin: 0;
+  color: black;
+  padding-top: 5px;
+}
+
+.resume-sidebar section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+.resume-sidebar h1 {
+  margin: 0 auto;
+  font-size: 24px;
+  color: black;
+  padding: 0 0 0 10px;
+  border-left: 5px solid black;
+  width: 100%;
+}
+
+.resume-sidebar p {
+  margin: 2px;
+  color: #696969;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  font-size: 14px;
+}
+
+.sidebar-block {
+  display: block;
+  height: max-content;
+}
+
+.certificates h2 {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+
+.dates h3 {
+  margin: 0;
+  color: #696969;
+  font-size: 14px;
+  text-align: right;
+}
+
+.degree {
+  margin: 10px 0;
+}
+
+.degree h2 {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+
+.degree-information h3 {
+  margin: 0;
+  color: #696969;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 100;
+}
+
+.resume-footer {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume-footer h1 {
+  margin: 0 auto;
+  padding: 0;
+  color: #696969;
+  font-size: 18px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.resume-footer i {
+  color: #696969;
+  font-size: 32px;
+  margin: 0 auto;
+  padding: 0;
+  display: inline;
+  vertical-align: middle;
+}
+
+.resume-footer a,
+a:visited {
+  text-decoration: none;
+}
+
+.resume-footer h1:hover {
+  color: #292929;
+}
+
+.resume-footer section {
+  display: inline;
+  margin-right: 20px;
+}
+
+.project {
+  border: 3px solid #161a1d;
+  margin-bottom: 5%;
+  background-color: #161a1d;
+  display: flex;
+  flex-direction: column;
+}
+
+.project img {
+  background-size: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project h1 {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.project h2 {
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.project-tags {
+  margin: 10px auto;
+  width: max-content;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.project-tags p {
+  margin: 2px;
+  color: #696969;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  font-size: 18px;
+}
+
+.project-tags p:hover {
+  background-color: #f1f1f1;
+  color: black;
+  transition: background-color 0.3s ease-in 0s;
+}
+
+/* ------------------------------- */
+@media (min-width: 600px) {
+  .header {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+
+  .header img {
+    margin: initial;
+  }
+
+  .links {
+    display: initial;
+    justify-content: initial;
+    vertical-align: middle;
+  }
+
+  .link-text {
+    font-size: 48px;
+    padding-left: 10%;
+    vertical-align: middle;
+  }
+
+  .main-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .flexbox {
+    display: flex;
+  }
+
+  .about-me h1 {
+    margin: 0 auto;
+    font-size: 172px;
+    width: 90%;
+    float: left;
+  }
+
+  .about-me p {
+    margin: 0 auto;
+    font-size: 32px;
+    padding-left: 2%;
+    width: 90%;
+  }
+
+  .icon-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .subheader hr {
+    width: 10%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .resume {
+    margin: 50px auto;
+    padding: 25px 50px;
+  }
+
+  .resume-experience {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .job {
+    width: 100%;
+  }
+
+  .job h1 {
+    font-size: 24px;
+    line-height: initial;
+    vertical-align: initial;
+  }
+
+  .job h2 {
+    font-size: 20px;
+    line-height: initial;
+  }
+
+  .job h3 {
+    font-size: 24px;
+    line-height: initial;
+    vertical-align: middle;
+  }
+
+  .flex-2 {
+    display: flex;
+  }
+
+  .resume-sidebar {
+    width: 35%;
+    height: 100%;
+    margin: 25px auto 0 40px;
+    vertical-align: top;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .project {
+    width: 50%;
+    display: inline;
+  }
+}

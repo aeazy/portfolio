@@ -1,0 +1,420 @@
+
+.header-2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-2 h1 {
+  font-size: 48px !important;
+}
+
+.header-2 hr {
+  width: 10%;
+  border: 2px solid #fff;
+}
+
+.footer {
+  height: 5%;
+}
+
+.subheader {
+  margin: 1% auto;
+  text-align: center;
+}
+
+
+.link-text {
+  font-size: 2.5vw;
+  padding-left: 10%;
+  vertical-align: middle;
+  padding-top: 10%;
+}
+
+.links {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 10%;
+}
+
+
+
+
+/* Online Resume */
+
+.resume-container {
+  margin: 50px auto;
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.resume-section-experience {
+  margin: 25px auto 0 0;
+  width: max-content;
+}
+
+.job-header {
+  display: flex;
+  margin-top: 20px;
+}
+
+.job-bullets ul {
+  margin: 0;
+  color: black;
+  padding-top: 10px;
+}
+section.job-title {
+  margin: 0;
+  padding: 0;
+}
+
+section.date {
+  margin: auto 0 auto auto;
+}
+
+.resume-section-experience h1 {
+  margin: 0 auto;
+  font-size: 24px;
+  color: black;
+  padding: 0 0 0 10px;
+  border-left: 5px solid black;
+}
+
+.resume-section-experience h2 {
+  margin: 0 auto;
+  color: black;
+  font-size: 20px;
+}
+
+.resume-section-experience h3 {
+  margin: 0 auto;
+  color: #696969;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.resume-sidebar {
+  width: 50%;
+  vertical-align: top;
+  margin: 25px auto 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid lightblue; */
+}
+
+.resume-sidebar section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+.resume-sidebar h1 {
+  margin: 0 auto;
+  font-size: 24px;
+  color: black;
+  padding: 0 0 0 10px;
+  border-left: 5px solid black;
+  width: 100%;
+}
+
+.resume-sidebar p {
+  margin: 2px;
+  color: #696969;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  font-size: 14px;
+}
+
+.certificates h2 {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+
+.dates h3 {
+  margin: 0;
+  color: #696969;
+  font-size: 14px;
+  text-align: right;
+}
+
+.degree {
+  margin: 10px 0;
+}
+
+.degree h2 {
+  margin: 0;
+  color: black;
+  font-size: 14px;
+}
+
+.degree-information h3 {
+  margin: 0;
+  color: #696969;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 100;
+}
+
+.skills {
+  display: block;
+}
+
+.certifications {
+  display: block;
+}
+
+.education {
+  display: block;
+}
+
+.resume-footer {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume-footer h1 {
+  margin: 0 auto;
+  padding: 0;
+  color: #696969;
+  font-size: 18px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.resume-footer i {
+  color: #696969;
+  font-size: 32px;
+  margin: 0 auto;
+  padding: 0;
+  display: inline;
+  vertical-align: middle;
+}
+
+.resume-footer a,
+a:visited {
+  text-decoration: none;
+}
+
+.resume-footer h1:hover {
+  color: #292929;
+}
+
+.resume-footer section {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Contact Me */
+.sidebar {
+  margin-top: 1%;
+  width: 20%;
+  float: left;
+  /* border: 1px solid red; */
+}
+
+.sidebar h1 {
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+}
+
+.sidebar h2 {
+  margin: 10px auto;
+  font-size: 18px;
+  color: #aeaaaa;
+}
+
+.flex {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.flex-2 {
+  margin: 0;
+  width: 20%;
+  text-align: center;
+  border-radius: 5px;
+  float: right;
+}
+
+.main-content-2 {
+  margin: 2% auto;
+  padding: 0;
+  width: 90%;
+}
+
+.main-content-2 form {
+  margin: 0;
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 75%;
+  height: fit-content;
+  float: right;
+}
+
+.main-content-2 section {
+  width: 50%;
+}
+
+.main-content-2 input {
+  margin: 0 auto;
+  width: 95%;
+  height: 2vw;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.main-content textarea {
+  height: 7vh;
+  width: 100%;
+  resize: none;
+  padding: 5px 0 0 10px;
+  border-radius: 5px;
+}
+
+/* Projects */
+.flexbox {
+  margin: 50px auto;
+  display: flex;
+}
+
+.project {
+  width: 50%;
+  background-color: #161a1d;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #161a1d;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.project-image {
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.project-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-title h1 {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.project-title h2 {
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.project-tags {
+  margin: 10px auto;
+  max-width: 80%;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.project-tags p {
+  margin: 0 auto;
+  color: #696969;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  font-size: 18px;
+}
+
+.project-tags p:hover {
+  background-color: #f1f1f1;
+  color: black;
+  transition: background-color 0.3s ease-in 0s;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    margin: 0 auto;
+    background-color: #0e1012;
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+  .logo {
+    height: auto;
+    width: 10%;
+  }
+
+  .header {
+    width: fit-content;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+
+  .header a {
+    text-decoration: none;
+    color: #818181;
+  }
+
+  .header a:hover {
+    color: #f1f1f1;
+  }
+
+  .header-2 {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header-2 h1 {
+    font-size: 48px !important;
+  }
+
+  .header-2 hr {
+    width: 10%;
+    border: 2px solid #fff;
+  }
+
+  .main-content {
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0e1012;
+    z-index: -1;
+  }
+
+  .main-content h1 {
+    font-size: 48px;
+    color: #f1f1f1;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 0;
+  }
+}
