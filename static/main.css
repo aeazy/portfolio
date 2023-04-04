@@ -456,7 +456,7 @@ input {
   border-radius: 5px;
   padding-left: 10px;
   color: black;
-  background-color #fff;
+  background-color: #fff;
 }
 
 textarea {
@@ -582,7 +582,10 @@ textarea {
 
   .project {
     width: 50%;
+    margin: 0 auto;
+    margin-right: 10px;
     display: inline;
+    justify-content: space-evenly;
   }
 
   .form input {
