@@ -403,6 +403,69 @@ a:visited {
   color: black;
   transition: background-color 0.3s ease-in 0s;
 }
+/* ------------------------------- */
+/* Contact Me */
+
+.sidebar {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.sidebar a {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.sidebar i {
+  margin: 0 auto;
+  font-size: 24px;
+  color: #fff;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.sidebar h2 {
+  margin: 10px auto;
+  font-size: 18px;
+  color: #aeaaaa;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.form section {
+  display: flex;
+  margin: 0 auto;
+}
+
+form {
+  margin: 0;
+}
+
+input {
+  height: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+  padding: 5px 0 0 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
 
 /* ------------------------------- */
 @media (min-width: 600px) {
@@ -519,5 +582,17 @@ a:visited {
   .project {
     width: 50%;
     display: inline;
+  }
+
+  .form input {
+    width: 50%;
+    height: 50px;
+  }
+
+  .sidebar {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
   }
 }

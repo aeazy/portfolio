@@ -3,15 +3,18 @@
   <head>
     <title>Aric Kraft</title>
     <meta http-equiv="x-ua-compatible" content="ie=10" />
-    <link rel="stylesheet" href="../static/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+    <link rel="stylesheet" href="static/main.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../static/form.js"></script>
+    <script src="static/form.js"></script>
   </head>
   <body>
     <!-- Header -->
     <div class="header">
       <div class="logo">
-        <img src="../static/ak-icon.png">
+        <img src="../static/ak-icon.png" />
       </div>
       <div class="links">
         <a href="/index.html"><span class="link-text">About</span></a>
@@ -20,38 +23,33 @@
 
         <a href="/projects.html"><span class="link-text">Projects</span></a>
 
-        <a href="#"
-          ><span class="link-text">Contact</span></a
-        >
+        <a href="#"><span class="link-text">Contact</span></a>
       </div>
     </div>
     <!-- Page content -->
     <div class="main-content">
-      <div class="header-2">
+      <div class="subheader">
         <h1>Contact Me</h1>
         <hr />
       </div>
-      <div class="main-content-2">
-        <div class="sidebar">
-          <h1>PHONE</h1>
-          <h2>(702) 588-8186</h2>
-          <h1>EMAIL</h1>
-          <h2>kraft.aric@gmail.com</h2>
-        </div>
-        <!-- Form -->
-        <form method="post" name="contactMe" action="../static/email-form.php" onsubmit="setTimeout(function(){window.location.reload(); alert('Thank you for reaching out')},10);">
-          <div class="flex">
-            <section><input type="text" id="name"  name="name" placeholder="Enter your name" required /></section>
-            <section>
-              <input type="text" id="email" name="email" placeholder="Enter your email address" style="float: right;" required />
-            </section>
-          </div>
 
-          <div class="flex">
-            <textarea id="message" name="message" wrap="soft" placeholder="Enter your message" required></textarea></textarea>
-          </div>
-          <div class="flex-2"><input type="submit" name="submit" value="Submit" style="float:right"></div>
+      <div class="form">
+        <!-- Form -->
+        <form
+          method="post"
+          name="contactMe"
+          action="static/email-form.php"
+          onsubmit="setTimeout(function(){window.location.reload(); alert('Thank you for reaching out')},10);">
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          <input type="text" id="email" name="email" placeholder="Enter your email address" style="float: right" required />
+          <textarea id="message" name="message" wrap="soft" placeholder="Enter your message" required></textarea>
+          <section><input type="submit" name="submit" value="Submit" style="margin: 0 auto" /></section>
         </form>
+      </div>
+
+      <div class="sidebar">
+        <h2><i class="bx bxs-phone"></i>(702) 588-8186</h2>
+        <h2><i class="bx bx-envelope"></i><a href="mailto:kraft.aric@gmail.com">kraft.aric@gmail.com</a></h2>
       </div>
     </div>
   </body>
